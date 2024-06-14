@@ -22,13 +22,13 @@
       "editor.insertSpaces": true,
       "editor.formatOnSave": true,
       "editor.codeActionsOnSave": {
-        "source.fixAll": true,
-        "source.fixAll.unusedImports": true,
-        "source.organizeImports": true
+        "source.fixAll": "explicit",
+        "source.fixAll.unusedImports": "explicit",
+        "source.organizeImports": "explicit"
       }
     },
     "python.languageServer": "Pylance",
-    "python.formatting.autopep8Args": [
+    "autopep8.args": [
       "--indent-size=4",
       "--max-line-length=80"
       // "--ignore=E111"
